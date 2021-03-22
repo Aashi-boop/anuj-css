@@ -1,0 +1,76 @@
+body{
+background-color:teal;;
+}
+h1 {
+  color: #c41010;
+
+  margin-bottom: 80px;
+  padding-left: 50px;
+}
+
+.header {
+  background-color: #64e69f;
+  border: solid #dc143c;
+  border-width: 5px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.desc {
+  background-color: #9acd32;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {           /*monkey division*/
+ 
+
+  border: solid black;
+  border-width: 10px;
+  width: 20%;
+  
+}
+
+.footer a img {
+    padding-right: 1200px;
+}
+
+.footer a {     /*this is default link with zero opacity*/
+  opacity: 0;
+}
+.footer:hover a {       /*on hovering cursor over link opacity becomes max*/
+  opacity: 1;
+}
+.footer img         /*this is default img with max opacity*/
+{      
+  opacity: 1;
+}
+.footer:hover img {     /*on hovering cursor over image opacity decreases*/
+  opacity: 0.5;
+}
+
+
+
+.Soul {             /*trex division*/
+ background-color: rgb(85, 44, 29);
+  width: 20%;
+  height: 50%;
+  padding-left: 1100px;
+}
+
+.Soul img{
+    border: solid black;
+    padding-left: 50px;
+    border-width: 10px;
+}
+
+a:link {
+  color: yellow;
+}
+
+a:visited {
+  color: #ff0064;
+}
+
